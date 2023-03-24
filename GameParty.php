@@ -11,7 +11,8 @@
     <label for="input-titre">Entrez le titre :</label>
     <input type="text" id="input-titre">
     <button id="btn-valider">Valider</button>
-    
+    <div id="score"></div>
+
     <script src="GameParty.js"></script>
 </body>
 </html>

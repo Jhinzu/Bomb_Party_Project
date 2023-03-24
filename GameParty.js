@@ -6,10 +6,14 @@ fetch("GameAPI.json") // envoie notre dossier json dans notre serv
     data.forEach(function(item) {
         console.log(item.title);
       });
-
-      
   const inputTitre = document.getElementById("input-titre");
   const btnValider = document.getElementById("btn-valider");
+  const scoreContainer = document.getElementById("score");
+  let scoreValue = 0 ;
+  function displayScore(){
+    scoreContainer.innerHTML = scoreValue;
+  }
+
 
   function randomWords() {
     // Définir l'alphabet
@@ -50,9 +54,14 @@ fetch("GameAPI.json") // envoie notre dossier json dans notre serv
     // if (titresEnMinuscules.includes(entreeUtilisateur) ) {
     if(titresEnMinuscules.indexOf(entreeUtilisateur) >= 0 && titresEnMinuscules[titresEnMinuscules.indexOf(entreeUtilisateur)].includes(randomletter) ){
       alert("Titre trouvé !");
+      scoreValue ++;
+      console.log(scoreValue)
+      return displayScore;
     } else {
       alert("Titre non trouvé !");
       console.log(randomletter);
+      scoreValue --;
+      console.log(scoreValue)
     }
   });
 });
