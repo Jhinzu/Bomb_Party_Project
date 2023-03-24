@@ -4,6 +4,7 @@ fetch("GameAPI.json") // envoie notre dossier json dans notre serv
 
     // Parcourir tous les éléments du tableau
     data.forEach(function(item) {
+
         console.log(item.title);
       });
   const inputTitre = document.getElementById("input-titre");
@@ -45,7 +46,8 @@ fetch("GameAPI.json") // envoie notre dossier json dans notre serv
 
   btnValider.addEventListener("click", function() 
   {
-    const entreeUtilisateur = inputTitre.value.toLowerCase(); //function pour que les Maj et Min ne sois pas pris en compte
+    const entreeUtilisateur = inputTitre.value.toLowerCase();
+                                                               //function pour que les Maj et Min ne sois pas pris en compte
     const titresEnMinuscules = data.map(function(item) {
       return item.title.toLowerCase();
     });
