@@ -8,6 +8,8 @@
     <title>BombParty</title>
 </head>
 <body>
+    <h1>bienvenue</h1>
+  <img src="img/Bombe.png" alt="" srcset="">
     
 </body>
 </html>
