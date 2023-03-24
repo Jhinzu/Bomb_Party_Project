@@ -8,6 +8,10 @@
     <title>BombParty</title>
 </head>
 <body>
+    <label for="input-titre">Entrez le titre :</label>
+    <input type="text" id="input-titre">
+    <button id="btn-valider">Valider</button>
+    
     <script src="GameParty.js"></script>
 </body>
 </html>
