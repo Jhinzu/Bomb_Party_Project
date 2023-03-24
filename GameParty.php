@@ -8,8 +8,11 @@
     <title>BombParty</title>
 </head>
 <body>
-    <h1>bienvenue</h1>
-  <img src="img/Bombe.png" alt="" srcset="">
+    <section class="bloc-jeu">
+        <img src="img/bombe.png" alt="" srcset="" width="100px" height="100px" class="bombe">
+        <img src="img/fleche.png" alt="" srcset="">
+    </section>
+
     
 </body>
 </html>

@@ -1,1 +1,13 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  background-color: rgb(160, 71, 71);
+}
+body .bloc-jeu {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .bloc-jeu .bombe {
+  animation: vibrate-2 0.3s linear infinite both;
+}/*# sourceMappingURL=style.css.map */

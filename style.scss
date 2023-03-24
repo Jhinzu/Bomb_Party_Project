@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(160, 71, 71);
+
+
+
+    .bloc-jeu {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+            .bombe{
+                    -webkit-animation: vibrate-2 0.3s linear infinite both;
+                            animation: vibrate-2 0.3s linear infinite both;
+            
+                }
+    }
+}
