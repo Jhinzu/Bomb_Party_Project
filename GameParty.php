@@ -8,11 +8,14 @@
     <title>BombParty</title>
 </head>
 <body>
+    <div id="safeTimerDisplay"></div>
+    <button id="start">start</button>
     <label for="input-titre">Entrez le titre :</label>
     <input type="text" id="input-titre">
     <button id="btn-valider">Valider</button>
     <div id="score"></div>
 
     <script src="GameParty.js"></script>
+    <script src="scriptJs/timer.js"></script>
 </body>
 </html>
