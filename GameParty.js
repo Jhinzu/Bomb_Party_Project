@@ -13,7 +13,7 @@ fetch("GameAPI.json") // envoie notre dossier json dans notre serv
 
   function randomWords() {
     // Définir l'alphabet
-    const alphabet = 'abcdefghijklmnopqrstuvwxyz';
+    const alphabet = 'o';
     // Générer un index aléatoire pour le premier mot
     const index1 = Math.floor(Math.random() * alphabet.length);
     // Générer un index aléatoire pour le deuxième mot
@@ -25,7 +25,8 @@ fetch("GameAPI.json") // envoie notre dossier json dans notre serv
   }
   
   // Exemple d'utilisation de la fonction
-  console.log(randomWords()); // affichera deux lettres aléatoires de l'alphabet, par exemple "kp"
+  const randomletter = randomWords();
+  console.log(randomletter); // affichera deux lettres aléatoires de l'alphabet, par exemple "kp"
   
 
   // Ajouter un écouteur d'événement keypress à l'élément input
@@ -44,13 +45,16 @@ fetch("GameAPI.json") // envoie notre dossier json dans notre serv
     const titresEnMinuscules = data.map(function(item) {
       return item.title.toLowerCase();
     });
-
-    const indexTitre = titresEnMinuscules.indexOf(entreeUtilisateur);
-    if (indexTitre !== -1) {
+    console.log(entreeUtilisateur)
+    // const indexTitre = titresEnMinuscules.includes(entreeUtilisateur);
+    // if (titresEnMinuscules.includes(entreeUtilisateur) ) {
+    if(titresEnMinuscules.indexOf(entreeUtilisateur) >= 0 && titresEnMinuscules[titresEnMinuscules.indexOf(entreeUtilisateur)].includes(randomletter) ){
       alert("Titre trouvé !");
     } else {
       alert("Titre non trouvé !");
+      console.log(randomletter);
     }
   });
 });
+
 
