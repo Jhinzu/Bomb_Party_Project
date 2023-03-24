@@ -8,6 +8,6 @@
     <title>BombParty</title>
 </head>
 <body>
-    
+    <script src="GameParty.js"></script>
 </body>
 </html>

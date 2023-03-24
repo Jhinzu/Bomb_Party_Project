@@ -1,0 +1,38 @@
+[
+    {
+      "title": "Fortnite",
+      "developer": "Epic Games",
+      "genre": "Battle Royale",
+      "platform": ["PC", "PlayStation", "Xbox"],
+      "release_date": "2017-07-25"
+    },
+    {
+      "title": "The Legend of Zelda: Breath of the Wild",
+      "developer": "Nintendo",
+      "genre": "Action-Adventure",
+      "platform": ["Nintendo Switch"],
+      "release_date": "2017-03-03"
+    },
+    {
+      "title": "Minecraft",
+      "developer": "Mojang Studios",
+      "genre": "Sandbox",
+      "platform": ["PC", "PlayStation", "Xbox", "Nintendo Switch"],
+      "release_date": "2011-11-18"
+    },
+    {
+      "title": "Grand Theft Auto V",
+      "developer": "Rockstar North",
+      "genre": "Action-Adventure",
+      "platform": ["PC", "PlayStation", "Xbox"],
+      "release_date": "2013-09-17"
+    },
+    {
+      "title": "Overwatch",
+      "developer": "Blizzard Entertainment",
+      "genre": "First-Person Shooter",
+      "platform": ["PC", "PlayStation", "Xbox"],
+      "release_date": "2016-05-24"
+    }
+  ]
+  
