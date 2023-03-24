@@ -6,12 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.scss">
     <title>BombParty</title>
+    <link rel="stylesheet" href="style.css">
+    <title >BombParty</title>
 </head>
 <body>
+    <div id="safeTimerDisplay"></div>
     <label for="input-titre">Entrez le titre :</label>
     <input type="text" id="input-titre">
     <button id="btn-valider">Valider</button>
-    
+    <button id="start">start</button>
+<script src="jscript.js/timer.js">
+</script>
     <script src="GameParty.js"></script>
     <h1>Bienvenue sur BombParty</h1>
     <img src="img/bombe.png" alt="" srcset="">
